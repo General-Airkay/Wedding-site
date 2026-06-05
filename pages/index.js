@@ -21,7 +21,7 @@ export default function Home() {
         {/* Background image */}
         <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
           <Image
-            src="https://picsum.photos/seed/wedding1/1600/900"
+            src="/photos/hero.jpg"
             alt="Wedding background"
             fill
             style={{ objectFit: 'cover' }}
