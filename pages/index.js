@@ -158,7 +158,7 @@ export default function Home() {
               }}>
                 {/* REPLACE: swap this src with your real couple photo */}
                 <Image
-                  src="https://picsum.photos/seed/couple1/600/750"
+                  src="/photos/NYSC.jpg"
                   alt="Lydia and Ndiana"
                   fill
                   style={{ objectFit: 'cover' }}
