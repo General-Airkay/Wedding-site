@@ -4,15 +4,15 @@ import { useState } from 'react';
 const accounts = [
   {
     bank: 'Zenith Bank',
-    name: 'Oluwadunsin Ladina Adara',
-    number: '789667288',
+    name: 'Oluwadunsin Lydia Adaralegbe',
+    number: '2270624663',
     color: '#1a6b4a',
     logo: '🏦',
   },
   {
-    bank: 'Hush Bank',
-    name: 'Close Akpekong',
-    number: '3686889278',
+    bank: 'First Bank',
+    name: 'Ndiana-Abasi Etim Akpekong',
+    number: '3060729252',
     color: '#c9a84c',
     logo: '🏛️',
   },
