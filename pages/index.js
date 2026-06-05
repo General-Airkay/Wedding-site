@@ -167,10 +167,10 @@ export default function Home() {
               <div style={{
                 position: 'absolute', bottom: '-16px', right: '-16px',
                 background: 'var(--gold)', color: 'white', borderRadius: '12px',
-                padding: '12px 20px', fontFamily: "'Great Vibes', cursive",
+                padding: '12px 20px', fontFamily: "'Cormorant Garamond', serif",
                 fontSize: '1.3rem', boxShadow: '0 8px 24px rgba(201,168,76,0.4)',
               }}>
-                Since NYSC '22
+                Since NYSC '21/'22
               </div>
             </div>
 
