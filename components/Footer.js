@@ -38,7 +38,7 @@ export default function Footer() {
             fontStyle: 'italic',
             letterSpacing: '1px',
           }}>
-            Divine's Choice '26 · 15th August 2026
+            Divine's Choice '26 - 15th August 2026
           </div>
         </div>
 
