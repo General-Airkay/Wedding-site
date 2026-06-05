@@ -40,15 +40,24 @@ export default function Navbar() {
         transition: 'all 0.4s ease',
         borderBottom: scrolled ? '1px solid rgba(201,168,76,0.15)' : 'none',
       }}>
-        <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
+        <div style={{
+          maxWidth: '1280px',
+          margin: '0 auto',
+          padding: '0 32px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          height: '88px',
+        }}>
           {/* Logo */}
-          <Link href="/" style={{ textDecoration: 'none' }}>
+          <Link href="/" style={{ textDecoration: 'none', flexShrink: 0 }}>
             <span style={{
               fontFamily: "'Great Vibes', cursive",
-              fontSize: '1.8rem',
+              fontSize: '2rem',
               color: scrolled ? 'var(--emerald)' : 'white',
               transition: 'color 0.4s',
               letterSpacing: '0.5px',
+              whiteSpace: 'nowrap',
             }}>
               Lydia & Ndiana
             </span>
@@ -56,31 +65,43 @@ export default function Navbar() {
 
           {/* Desktop nav */}
           <ul style={{
-            display: 'flex', gap: '6px', listStyle: 'none',
+            display: 'flex',
+            gap: '2px',
+            listStyle: 'none',
             alignItems: 'center',
+            flexWrap: 'nowrap',
+            margin: '0',
+            padding: '0',
           }} className="desktop-nav">
             {links.map((l) => (
-              <li key={l.href}>
+              <li key={l.href} style={{ flexShrink: 0 }}>
                 <Link href={l.href} style={{
                   textDecoration: 'none',
                   fontFamily: "'Jost', sans-serif",
-                  fontSize: '13px',
+                  fontSize: '12.5px',
                   fontWeight: 500,
-                  letterSpacing: '0.3px',
+                  letterSpacing: '0.2px',
                   color: scrolled
                     ? (router.pathname === l.href ? 'var(--emerald)' : 'var(--text-mid)')
                     : 'rgba(255,255,255,0.88)',
-                  padding: '6px 10px',
+                  padding: '8px 9px',
                   borderRadius: '6px',
                   transition: 'all 0.2s',
+                  whiteSpace: 'nowrap',
+                  display: 'inline-block',
                   borderBottom: router.pathname === l.href ? '2px solid var(--gold)' : '2px solid transparent',
                 }}>
                   {l.label}
                 </Link>
               </li>
             ))}
-            <li>
-              <Link href="/rsvp" className="btn btn-primary" style={{ padding: '9px 22px', fontSize: '13px', marginLeft: '8px' }}>
+            <li style={{ flexShrink: 0, marginLeft: '10px' }}>
+              <Link href="/rsvp" className="btn btn-primary" style={{
+                padding: '10px 20px',
+                fontSize: '13px',
+                whiteSpace: 'nowrap',
+                display: 'inline-flex',
+              }}>
                 RSVP Now
               </Link>
             </li>
@@ -94,6 +115,7 @@ export default function Navbar() {
             style={{
               background: 'none', border: 'none', cursor: 'pointer',
               display: 'none', flexDirection: 'column', gap: '5px', padding: '8px',
+              flexShrink: 0,
             }}
           >
             {[0, 1, 2].map(i => (
@@ -102,11 +124,6 @@ export default function Navbar() {
                 background: scrolled ? 'var(--emerald-dark)' : 'white',
                 borderRadius: '2px',
                 transition: 'all 0.3s',
-                transform: menuOpen
-                  ? i === 0 ? 'rotate(45deg) translate(5px, 5px)'
-                  : i === 1 ? 'opacity: 0; scaleX(0)'
-                  : 'rotate(-45deg) translate(5px, -5px)'
-                  : 'none',
                 opacity: menuOpen && i === 1 ? 0 : 1,
               }} />
             ))}
@@ -117,7 +134,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       {menuOpen && (
         <div style={{
-          position: 'fixed', top: 72, left: 0, right: 0, bottom: 0,
+          position: 'fixed', top: 88, left: 0, right: 0, bottom: 0,
           background: 'rgba(18, 77, 53, 0.97)',
           zIndex: 999,
           overflowY: 'auto',
@@ -147,7 +164,7 @@ export default function Navbar() {
       )}
 
       <style>{`
-        @media (max-width: 900px) {
+        @media (max-width: 1100px) {
           .desktop-nav { display: none !important; }
           .hamburger { display: flex !important; }
         }
