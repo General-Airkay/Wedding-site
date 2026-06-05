@@ -41,7 +41,7 @@ export default function OurStory() {
                 boxShadow: '0 0 0 8px rgba(201,168,76,0.1)',
               }}>
                 {/* REPLACE: swap src with bride's real photo */}
-                <Image src="https://picsum.photos/seed/bride1/300/300" alt="Lydia Oluwadunsin" fill style={{ objectFit: 'cover' }} />
+                <Image src="photos/Bride" alt="Lydia Oluwadunsin" fill style={{ objectFit: 'cover' }} />
               </div>
               <div className="section-label" style={{ marginBottom: '4px' }}>The Bride</div>
               <h3 style={{ fontFamily: "'Great Vibes', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Lydia Oluwadunsin</h3>
@@ -62,7 +62,7 @@ export default function OurStory() {
                 boxShadow: '0 0 0 8px rgba(26,107,74,0.1)',
               }}>
                 {/* REPLACE: swap src with groom's real photo */}
-                <Image src="https://picsum.photos/seed/groom1/300/300" alt="Ndiana Akpekong" fill style={{ objectFit: 'cover' }} />
+                <Image src="photos/Groom" alt="Ndiana Akpekong" fill style={{ objectFit: 'cover' }} />
               </div>
               <div className="section-label" style={{ marginBottom: '4px' }}>The Groom</div>
               <h3 style={{ fontFamily: "'Great Vibes', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Ndiana Akpekong</h3>
