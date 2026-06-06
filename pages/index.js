@@ -97,14 +97,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div style={{
-          position: 'absolute', bottom: '36px', left: '50%', transform: 'translateX(-50%)',
-          display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px',
-          opacity: 0.5, zIndex: 2,
-        }}>
-          <span style={{ fontSize: '10px', fontWeight: 600, letterSpacing: '2px', textTransform: 'uppercase', color: 'white', fontFamily: "'Jost', sans-serif" }}>Scroll</span>
-          <div style={{ width: '1px', height: '40px', background: 'linear-gradient(to bottom, white, transparent)' }} />
-        </div>
       </section>
 
       {/* ── WELCOME MESSAGE ── */}
