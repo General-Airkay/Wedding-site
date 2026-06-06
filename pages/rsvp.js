@@ -80,7 +80,7 @@ export default function RSVP() {
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', maxWidth: '800px', margin: '0 auto' }}>
             {[
-              { icon: '⏰', title: 'Arrive Early', text: 'Please arrive 30–45 minutes before 11:00 AM to be seated comfortably.' },
+              { icon: '⏰', title: 'Arrive Early', text: 'Please arrive 30–45 minutes before 10:30 AM to be seated comfortably.' },
               { icon: '👗', title: 'Dress Code', text: 'Emerald Green, Champagne Gold, or White. Smart formal or Nigerian traditional attire.' },
               { icon: '📸', title: 'Share the Love', text: 'Use the hashtag #DivineSChoice26 on social media when sharing photos.' },
             ].map(({ icon, title, text }) => (
