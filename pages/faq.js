@@ -5,7 +5,7 @@ import Link from 'next/link';
 const faqs = [
   {
     q: 'What time should I arrive at the venue?',
-    a: 'We recommend arriving 30–45 minutes before the ceremony begins at 11:00 AM. This will give you enough time to be seated comfortably and enjoy the atmosphere before the service starts.',
+    a: 'We recommend arriving 30–45 minutes before the ceremony begins at 10:30 AM. This will give you enough time to be seated comfortably and enjoy the atmosphere before the service starts.',
   },
   {
     q: 'What is the dress code?',
