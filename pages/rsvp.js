@@ -62,12 +62,6 @@ export default function RSVP() {
             border: '1px solid rgba(26,107,74,0.15)',
           }}>
             <div style={{ fontSize: '1.6rem', marginBottom: '8px' }}>🎉</div>
-            <div style={{
-              fontFamily: "'Cormorant Garamond', serif",
-              fontSize: '1.15rem', fontWeight: 600, color: 'var(--emerald-dark)', marginBottom: '6px',
-            }}>
-              After Submitting
-            </div>
             <p style={{ color: 'var(--text-mid)', fontSize: '0.93rem' }}>
               Thank you for confirming. We look forward to celebrating with you on 15th August 2026! 💚
             </p>
@@ -82,7 +76,7 @@ export default function RSVP() {
             {[
               { icon: '⏰', title: 'Arrive Early', text: 'Please arrive 30–45 minutes before 10:30 AM to be seated comfortably.' },
               { icon: '👗', title: 'Dress Code', text: 'Emerald Green, Champagne Gold, or White. Smart formal or Nigerian traditional attire.' },
-              { icon: '📸', title: 'Share the Love', text: 'Use the hashtag #DivineSChoice26 on social media when sharing photos.' },
+              { icon: '📸', title: 'Share the Love', text: 'Use the hashtag #Divine'sChoice'26 on social media when sharing photos.' },
             ].map(({ icon, title, text }) => (
               <div key={title} style={{
                 background: 'white', borderRadius: '16px', padding: '24px',
