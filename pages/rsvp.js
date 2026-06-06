@@ -76,7 +76,7 @@ export default function RSVP() {
             {[
               { icon: '⏰', title: 'Arrive Early', text: 'Please arrive 30–45 minutes before 10:30 AM to be seated comfortably.' },
               { icon: '👗', title: 'Dress Code', text: 'Emerald Green, Champagne Gold, or White. Smart formal or Nigerian traditional attire.' },
-              { icon: '📸', title: 'Share the Love', text: 'Use the hashtag #Divine'sChoice'26 on social media when sharing photos.' },
+              { icon: '📸', title: 'Share the Love', text: "Use the hashtag #Divine'sChoice26 on social media when sharing photos." },
             ].map(({ icon, title, text }) => (
               <div key={title} style={{
                 background: 'white', borderRadius: '16px', padding: '24px',
