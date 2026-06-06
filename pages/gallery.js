@@ -16,8 +16,8 @@ const items = [
   { cat: 'Pre-Wedding',      src: 'https://picsum.photos/seed/pre3/600/700',   caption: 'Pre-Wedding — 03' },
   { cat: 'Pre-Wedding',      src: 'https://picsum.photos/seed/pre4/600/550',   caption: 'Pre-Wedding — 04' },
   { cat: 'Couple Portraits', src: 'https://picsum.photos/seed/port1/600/800',  caption: 'Portrait — 01' },
-  { cat: 'Couple Together', src: '/photos/Couple6.jpg',  caption: 'Together — 02' },
-  { cat: 'Couple Portraits', src: 'https://picsum.photos/seed/port3/600/750',  caption: 'Portrait — 03' },
+  { cat: 'Couple Together', src: '/photos/Couple5.jpg',  caption: 'Together — 02' },
+  { cat: 'Couple Together', src: '/photos/Couple6.jpg',  caption: 'Together — 03' },
   { cat: 'Couple Portraits', src: 'https://picsum.photos/seed/port4/600/500',  caption: 'Portrait — 04' },
 ];
 
