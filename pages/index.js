@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           <h1 className="fade-up-delay-2" style={{
-            fontFamily: "'Great Vibes', cursive",
+            fontFamily: "'Mr Dafoe', cursive",
             fontSize: 'clamp(3.5rem, 12vw, 8rem)',
             color: 'white', fontWeight: 400, lineHeight: 1.1,
             textShadow: '0 4px 32px rgba(0,0,0,0.2)',
