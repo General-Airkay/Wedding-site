@@ -58,7 +58,7 @@ export default function WeddingDetails() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '24px', marginBottom: '48px' }}>
             {[
               { icon: '📅', title: 'Date', lines: ['Saturday', '15th August 2026'] },
-              { icon: '🕐', title: 'Time', lines: ['Ceremony begins at', '11:00 AM'] },
+              { icon: '🕐', title: 'Time', lines: ['Ceremony begins at', '10:30 AM'] },
               { icon: '📍', title: 'Venue', lines: ['RCCG Canaanland Parish', 'Behind Ajaleye Event Centre', 'Ado-Ekiti, Ekiti State, Nigeria'] },
               { icon: '🥂', title: 'Reception', lines: ['Details will be', 'announced at the venue'] },
             ].map(({ icon, title, lines }) => (
@@ -185,7 +185,7 @@ export default function WeddingDetails() {
               'Smart formal or traditional Nigerian attire is acceptable',
               'Ladies may mix the colors in their outfit',
               'Please avoid black or red as primary colors',
-              'Look sharp — we want beautiful photos! 📸',
+              'Look sharp — we love beautiful photos! 📸',
             ].map((tip, i) => (
               <div key={i} style={{
                 display: 'flex', gap: '10px', marginBottom: '10px', alignItems: 'flex-start',
