@@ -117,7 +117,7 @@ export default function Home() {
           <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', justifyContent: 'center', margin: '48px 0' }}>
             {[
               { icon: '🕊️', label: 'Ceremony', value: 'RCCG Canaanland Parish', sub: 'Ado-Ekiti, Ekiti State' },
-              { icon: '📅', label: 'Date', value: '15th August 2026', sub: 'Saturday, 11:00 AM' },
+              { icon: '📅', label: 'Date', value: '15th August 2026', sub: 'Saturday, 10:30 AM' },
               { icon: '👗', label: 'Dress Code', value: 'Emerald Green, Gold & White', sub: 'Look beautiful with us' },
             ].map(({ icon, label, value, sub }) => (
               <div key={label} className="card" style={{ flex: '1 1 220px', maxWidth: '280px', textAlign: 'center', padding: '32px 24px' }}>
