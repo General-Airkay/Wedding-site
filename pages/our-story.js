@@ -6,7 +6,7 @@ const timelineEvents = [
   { year: '2021', title: 'First Meeting — Kogi State', text: 'We met during our NYSC service year through a writing community in Asaya Camp, Kabba, Kogi State. Two kindred spirits brought together by words and purpose.', icon: '✍️' },
   { year: '2021-2022', title: 'NCCF Fellowship', text: "We grew closer through the Nigeria Christian Corpers' Fellowhip (NCCF) activities. Posted to the same local government, we stayed in the same Corpers' lodge — building friendship daily.", icon: '🙏' },
   { year: '2022', title: 'Separate Paths', text: "After NYSC, life took us in different directions. We went our separate ways, not knowing God was writing a greater story.", icon: '🛤️' },
-  { year: '2022-2023', title: 'Divine Reconnection', text: "At the RCCG Youth Convention at Redemption City, Ogun State, God orchestrated our reunion that would eventually blossomed into something deeper.", icon: '✨' },
+  { year: '2022-2023', title: 'Divine Reconnection', text: "At the RCCG Youth Convention at Redemption City, Ogun State, God orchestrated our reunion; one that would eventually blossom into something deeper.", icon: '✨' },
   { year: '202x-2026', title: 'Intentional Courtship', text: "Through prayer, shared values, and God's guidance, our relationship grew into intentional courtship — two hearts aligned toward one purpose.", icon: '💍' },
   { year: '2026', title: 'Forever Begins', text: 'On 15th August 2026, surrounded by family and friends, we say "I do" — beginning a beautiful union rooted in love, faith, and purpose.', icon: '💒' },
 ];
