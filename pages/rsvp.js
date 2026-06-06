@@ -63,7 +63,7 @@ export default function RSVP() {
           }}>
             <div style={{ fontSize: '1.6rem', marginBottom: '8px' }}>🎉</div>
             <p style={{ color: 'var(--text-mid)', fontSize: '0.93rem' }}>
-              Thank you for confirming. We look forward to celebrating with you on 15th August 2026! 💚
+              🎉 Thank you for confirming. We look forward to celebrating with you on 15th August 2026! 💚
             </p>
           </div>
         </div>
