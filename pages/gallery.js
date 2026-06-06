@@ -101,7 +101,7 @@ export default function Gallery() {
           }}>
             <div style={{ fontSize: '2rem', marginBottom: '12px' }}>📸</div>
             <h3 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '1.4rem', color: 'var(--emerald-dark)', marginBottom: '10px' }}>
-              Wedding Photos Coming Soon
+              Other Photos Coming Soon
             </h3>
             <p style={{ color: 'var(--text-soft)', fontSize: '0.93rem', maxWidth: '440px', margin: '0 auto' }}>
               More beautiful photos will be added here before and after our special day. Stay tuned!
