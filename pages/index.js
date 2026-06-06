@@ -76,7 +76,7 @@ export default function Home() {
               fontWeight: 500, letterSpacing: '3px', textTransform: 'uppercase',
               color: 'rgba(255,255,255,0.8)',
             }}>
-              15th August 2026 · 11:00 AM
+              15th August 2026 · 10:30 AM
             </span>
             <div style={{ height: '1px', width: '48px', background: 'rgba(201,168,76,0.5)' }} />
           </div>
