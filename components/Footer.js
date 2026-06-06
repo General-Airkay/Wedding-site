@@ -24,7 +24,7 @@ export default function Footer() {
         {/* Top */}
         <div style={{ textAlign: 'center', marginBottom: '48px' }}>
           <div style={{
-            fontFamily: "'Great Vibes', cursive",
+            fontFamily: "'Mr Dafoe', cursive",
             fontSize: '3rem',
             color: 'var(--gold-light)',
             marginBottom: '8px',
