@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     q: 'What is the dress code?',
-    a: 'The dress code is Emerald Green, Champagne Gold, or White. Smart formal or traditional Nigerian attire is perfectly acceptable. Please avoid black or red as primary colors. We want everyone looking beautiful in our wedding palette for the photos!',
+    a: 'Smart formal or traditional Nigerian attire is perfectly acceptable. Please avoid black or red as primary colors. We want everyone looking beautiful in our wedding palette for the photos!',
   },
   {
     q: 'Is the event invitation-only?',
@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     q: 'Who can I contact for enquiries?',
-    a: 'For any enquiries, please reach out to our contact persons: Mandu – 08078886782, Priscilla – 077292678, or Oluwatisin – 08668267739. You can also visit our Contact page for WhatsApp links.',
+    a: 'For any enquiries, please reach out to our contact persons: Mandu – 08064066418, Priscilla – 09034824025, or Oluwatisin – 09151457463. You can also visit our Contact page for WhatsApp links.',
   },
   {
     q: 'Will there be a reception after the ceremony?',
-    a: 'Yes! Reception details will be announced at the venue on the wedding day. Please make sure you\'re present at the church service so you receive all announcements.',
+    a: 'Yes! Please make sure you\'re present at the church service so you receive all announcements.',
   },
   {
     q: 'Can I share photos on social media?',
