@@ -110,7 +110,7 @@ export default function Accommodation() {
               RCCG Canaanland Parish<br />
               Behind Ajaleye Event Centre<br />
               Ado-Ekiti, Ekiti State, Nigeria<br /><br />
-              <strong style={{ color: 'var(--gold-light)' }}>Saturday, 15th August 2026 at 11:00 AM</strong>
+              <strong style={{ color: 'var(--gold-light)' }}>Saturday, 15th August 2026 at 10:30 AM</strong>
             </p>
           </div>
         </div>
