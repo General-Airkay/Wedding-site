@@ -157,7 +157,7 @@ export default function WeddingDetails() {
       }}>
         <div className="container text-center">
           <div className="section-label">Look Beautiful With Us</div>
-          <h2 className="section-title">Dress Code</h2>
+          <h2 className="section-title">Colour Palette</h2>
           <div className="section-divider">
             <span /><div className="diamond" /><span />
           </div>
