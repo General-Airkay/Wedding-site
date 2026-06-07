@@ -1,9 +1,9 @@
 import Layout from '../components/Layout';
 
 const contacts = [
-  { name: 'Mandu', phone: '08078886782', wa: '2348078886782', role: 'Wedding Coordinator' },
-  { name: 'Priscilla', phone: '077292678', wa: '077292678', role: 'Bridal Team' },
-  { name: 'Oluwatisin', phone: '08668267739', wa: '2348668267739', role: 'Family Contact' },
+  { name: 'Mandu', phone: '08064066418', wa: '2348064066418' },
+  { name: 'Priscilla', phone: '09034824025', wa: '2349034824025' },
+  { name: 'Oluwatisin', phone: '09151457463', wa: '2349151457463' },
 ];
 
 export default function Contact() {
