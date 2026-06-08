@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: 'Who can I contact for enquiries?',
-    a: 'For any enquiries, please reach out to our contact persons: Mandu – 08064066418, Priscilla – 09034824025, or Oluwatisin – 09151457463. You can also visit our Contact page for WhatsApp links.',
+    a: 'For any enquiries, please reach out to our contact persons: Mandu – 08064066418, Priscilla – 09066517519, or Oluwatisin – 09151457463. You can also visit our Contact page for WhatsApp links.',
   },
   {
     q: 'Will there be a reception after the ceremony?',
