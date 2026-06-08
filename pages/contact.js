@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 const contacts = [
   { name: 'Mandu', phone: '08064066418', wa: '2348064066418' },
   { name: 'Priscilla', phone: '09034824025', wa: '2349034824025' },
-  { name: 'Oluwatosin', phone: '09151457463', wa: '2349151457463' },
+  { name: 'Oluwatosin', phone: '09066517519', wa: '2349066517519' },
 ];
 
 export default function Contact() {
