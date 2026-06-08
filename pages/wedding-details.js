@@ -60,7 +60,7 @@ export default function WeddingDetails() {
               { icon: '📅', title: 'Date', lines: ['Saturday', '15th August 2026'] },
               { icon: '🕐', title: 'Time', lines: ['Ceremony begins at', '10:30 AM'] },
               { icon: '📍', title: 'Venue', lines: ['RCCG Canaanland Parish', 'Behind Ajaleye Event Centre', 'Ado-Ekiti, Ekiti State, Nigeria'] },
-              { icon: '🥂', title: 'Reception', lines: ['Details will be', 'announced at the venue'] },
+              { icon: '🥂', title: 'Reception', lines: ['Additional details will be', 'provided upon confirmation of your attendance.'] },
             ].map(({ icon, title, lines }) => (
               <div key={title} className="card" style={{ textAlign: 'center' }}>
                 <div style={{ fontSize: '2rem', marginBottom: '12px' }}>{icon}</div>
@@ -95,10 +95,10 @@ export default function WeddingDetails() {
             <span style={{ fontSize: '1.5rem', flexShrink: 0 }}>📣</span>
             <div>
               <div style={{ fontWeight: 600, color: 'var(--emerald-dark)', marginBottom: '6px', fontFamily: "'Cormorant Garamond', serif", fontSize: '1.15rem' }}>
-                Reception Announcement
+                Announcement
               </div>
               <p style={{ color: 'var(--text-mid)', fontSize: '0.93rem', lineHeight: 1.7 }}>
-                Reception details will be announced at the venue on the wedding day. Please ensure you arrive at the church on time so you don't miss any announcements.
+                Please ensure you arrive at the venue on time so you don't miss any important announcement.
               </p>
             </div>
           </div>
