@@ -33,11 +33,11 @@ const faqs = [
   },
   {
     q: 'Will there be a reception after the ceremony?',
-    a: 'Yes! Please make sure you\'re present at the church service so you receive all announcements.',
+    a: 'Yes! Details will be provided upon confirmation of your attendance.',
   },
   {
     q: 'Can I share photos on social media?',
-    a: 'Absolutely! We love it when you share the joy. Please use our wedding hashtag #DivineSChoice26 on all your posts so we can find and cherish your photos.',
+    a: 'Absolutely! We love it when you share the joy. Please use our wedding hashtag #Divine\'sChoice26 on all your posts so we can find and cherish your photos.',
   },
 ];
 
