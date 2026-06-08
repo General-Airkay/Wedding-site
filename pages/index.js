@@ -176,7 +176,7 @@ export default function Home() {
                 Written by God,<br />Lived by Us
               </h2>
               <p style={{ color: 'var(--text-mid)', marginBottom: '16px', lineHeight: 1.8 }}>
-                Our meeting was truly divine. We first met during our NYSC year in Kogi State through a writing community — two hearts that wouldn't have found each other any other way.
+                Our meeting was truly divine. We first met during our NYSC year in Kogi State through a writing community — a divine connection only God could inspire.
               </p>
               <p style={{ color: 'var(--text-mid)', marginBottom: '32px', lineHeight: 1.8 }}>
                 After NYSC, we went separate ways but God had other plans. A reconnection at RCCG Youth Convention at Redemption City was the beginning of something beautiful.
