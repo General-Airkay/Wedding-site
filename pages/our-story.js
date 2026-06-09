@@ -44,7 +44,7 @@ export default function OurStory() {
                 <Image src="photos/Bride.jpg" alt="Lydia Oluwadunsin" fill style={{ objectFit: 'cover' }} />
               </div>
               <div className="section-label" style={{ marginBottom: '4px' }}>The Bride</div>
-              <h3 style={{ fontFamily: "'Great Vibes', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Lydia Oluwadunsin</h3>
+              <h3 style={{ fontFamily: "'Mr Dafoe', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Lydia Oluwadunsin</h3>
               <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem' }}>
                 Lydia is a passionate Christian and an unashamed Ambassador for Christ from Ekiti State, Nigeria. Her life reflects deep love for God and purposeful living. She is passionate about inspiring others through words, service, creativity, and encouragement.
               </p>
@@ -65,8 +65,8 @@ export default function OurStory() {
                 <Image src="photos/Groom.jpg" alt="Ndiana Akpekong" fill style={{ objectFit: 'cover' }} />
               </div>
               <div className="section-label" style={{ marginBottom: '4px' }}>The Groom</div>
-              <h3 style={{ fontFamily: "'Great Vibes', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Ndiana Akpekong</h3>
-              <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem' }}>
+              <h3 style={{ fontFamily: "'Mr Dafoe', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Ndiana Akpekong</h3>
+              <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem', textAlign: 'justify', hyphens: 'auto' }}>
                 Ndiana Akpekong is a Marine Engineer, Digital Marketing Specialist, and Entrepreneur driven by a deep commitment to his faith and a passion for empowering others. As a technology enthusiast, he equips individuals, businesses, and organizations with in-demand digital skills, particularly in digital marketing, AI applications, business automation, and online entrepreneurship. Through physical and virtual training programs, he has helped beginners and professionals develop practical skills that enhance employability, business growth, and career advancement.
               </p>
               <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem', marginTop: '12px' }}>
