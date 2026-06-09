@@ -67,10 +67,11 @@ export default function OurStory() {
               <div className="section-label" style={{ marginBottom: '4px' }}>The Groom</div>
               <h3 style={{ fontFamily: "'Great Vibes', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Ndiana Akpekong</h3>
               <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem' }}>
-                Ndiana Akpekong is a man of faith, vision, and quiet strength. His life is marked by deep commitment to God and genuine love for people. He brings warmth, wisdom, and joy to every room he enters.
+                Ndiana Akpekong is a Marine Engineer, Digital Marketing Specialist, and Entrepreneur driven by a deep commitment to his faith and a passion for empowering others. As a technology enthusiast, he equips individuals, businesses, and organizations with in-demand digital skills, particularly in digital marketing, AI applications, business automation, and online entrepreneurship. Through physical and virtual training programs, he has helped beginners and professionals develop practical skills that enhance employability, business growth, and career advancement.
               </p>
               <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem', marginTop: '12px' }}>
-                Purpose-driven and grounded, Ndiana is not just choosing a partner — he is choosing a divine companion for the journey ahead. His love for Lydia is intentional, patient, and rooted in prayer.
+                Beyond his professional expertise, Ndiana is defined by his quiet strength, warmth, and dedication to serving others. He is deeply involved in youth development through TAYO (Teens and Youths Outreach), where he mentors the next generation in leadership, entrepreneurship, and core values. 
+                Guided by his love for Jesus and a vision for transformation, his mission is to bridge the gap between knowledge and opportunity, creating impactful experiences that inspire lasting growth and purpose.       
               </p>
             </div>
           </div>
