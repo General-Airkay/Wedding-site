@@ -204,7 +204,7 @@ function VendorCard({ vendor }) {
               padding: '8px 14px',
               borderRadius: '50px',
               background: 'var(--emerald-muted)',
-              color: 'var(--emerald)',
+              color: 'var(--gold-dark)',
               border: '1.5px solid var(--gold-dark)',
               fontFamily: "'Jost', sans-serif",
               fontSize: '12px', fontWeight: 600,
