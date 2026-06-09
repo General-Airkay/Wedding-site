@@ -44,11 +44,11 @@ export default function OurStory() {
                 <Image src="photos/Bride.jpg" alt="Lydia Oluwadunsin" fill style={{ objectFit: 'cover' }} />
               </div>
               <div className="section-label" style={{ marginBottom: '4px' }}>The Bride</div>
-              <h3 style={{ fontFamily: "'Mr Dafoe', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Lydia Oluwadunsin</h3>
-              <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem' }}>
+              <h3 style={{ fontFamily: "'Great Vibes', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Lydia Oluwadunsin</h3>
+              <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem', textAlign: 'justify', hyphens: 'auto' }}>
                 Lydia is a passionate Christian and an unashamed Ambassador for Christ from Ekiti State, Nigeria. Her life reflects deep love for God and purposeful living. She is passionate about inspiring others through words, service, creativity, and encouragement.
               </p>
-              <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem', marginTop: '12px' }}>
+              <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem', marginTop: '14px', textAlign: 'justify', hyphens: 'auto' }}>
                 She holds degrees in English & Literary Studies, Communication & Media Studies (PGD & MSc), with research interest in Psychological Communication. She writes stories, poems, affirmations, and motivational content centered on identity, purpose, and emotional growth.
               </p>
             </div>
@@ -65,11 +65,11 @@ export default function OurStory() {
                 <Image src="photos/Groom.jpg" alt="Ndiana Akpekong" fill style={{ objectFit: 'cover' }} />
               </div>
               <div className="section-label" style={{ marginBottom: '4px' }}>The Groom</div>
-              <h3 style={{ fontFamily: "'Mr Dafoe', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Ndiana Akpekong</h3>
+              <h3 style={{ fontFamily: "'Great Vibes', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Ndiana Akpekong</h3>
               <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem', textAlign: 'justify', hyphens: 'auto' }}>
                 Ndiana Akpekong is a Marine Engineer, Digital Marketing Specialist, and Entrepreneur driven by a deep commitment to his faith and a passion for empowering others. As a technology enthusiast, he equips individuals, businesses, and organizations with in-demand digital skills, particularly in digital marketing, AI applications, business automation, and online entrepreneurship. Through physical and virtual training programs, he has helped beginners and professionals develop practical skills that enhance employability, business growth, and career advancement.
               </p>
-              <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem', marginTop: '12px' }}>
+              <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem', marginTop: '14px', textAlign: 'justify', hyphens: 'auto' }}>
                 Beyond his professional expertise, Ndiana is defined by his quiet strength, warmth, and dedication to serving others. He is deeply involved in youth development through TAYO (Teens and Youths Outreach), where he mentors the next generation in leadership, entrepreneurship, and core values. 
                 Guided by his love for Jesus and a vision for transformation, his mission is to bridge the gap between knowledge and opportunity, creating impactful experiences that inspire lasting growth and purpose.       
               </p>
