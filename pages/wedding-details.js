@@ -148,6 +148,18 @@ export default function WeddingDetails() {
               📍 Open in Google Maps
             </a>
           </div>
+
+             <div style={{ textAlign: 'center', marginTop: '20px' }}>
+            <a
+              href="https://drive.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline"
+              style={{ display: 'inline-flex' }}
+            >
+              🛣️ Download Direction Guide
+            </a>
+          </div>
         </div>
       </section>
 
