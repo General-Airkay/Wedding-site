@@ -58,7 +58,7 @@ export default function Home() {
           </h1>
 
           <div className="fade-up-delay-2" style={{
-            fontFamily: "'Cormorant Garamond', serif",
+            fontFamily: "'Jost', sans-serif",
             fontSize: 'clamp(1.1rem, 3vw, 1.5rem)',
             color: 'var(--gold-light)', fontStyle: 'italic',
             fontWeight: 300, letterSpacing: '2px', margin: '12px 0 32px',
