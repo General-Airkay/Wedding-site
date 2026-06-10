@@ -171,6 +171,35 @@ h1, h2, h3, h4 {
   color: var(--emerald);
 }
 
+.direction-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a6b4a; /* Emerald Green */
+  color: #ffffff;
+  border: 2px solid #c9a84c; /* Champagne Gold */
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect (desktop) */
+.direction-btn:hover {
+  background-color: #ffffff;
+  color: #1a6b4a;
+  border-color: #1a6b4a;
+}
+
+/* Touch/Click effect */
+.direction-btn:active {
+  background-color: #ffffff;
+  color: #1a6b4a;
+  border-color: #1a6b4a;
+  transform: scale(0.98);
+}
+
 /* ── Cards ── */
 .card {
   background: white;
