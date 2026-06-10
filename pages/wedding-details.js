@@ -151,7 +151,7 @@ export default function WeddingDetails() {
 
              <div style={{ textAlign: 'center', marginTop: '20px' }}>
             <a
-              href="https://drive.google.com"
+              href="https://www.dropbox.com/scl/fi/cthh9diz30vfzdungvifn/Wedding-Venue-Direction-Guide.jpg?rlkey=yyqqrbrw4fxdik1s806q3ncuk&st=zln23iy9&dl=1"
               target="_blank"
               rel="noopener noreferrer"
               className="btn direction-btn"
