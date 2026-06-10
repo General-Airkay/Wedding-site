@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <Layout title="Lydia & Ndiana | Divine's Choice '26">
+    <Layout title="Lydia & Ndiana | #DivineChoice2026">
       {/* ── HERO ── */}
       <section style={{
         minHeight: '100vh',
@@ -63,7 +63,7 @@ export default function Home() {
             color: 'var(--gold-light)', fontStyle: 'italic',
             fontWeight: 300, letterSpacing: '2px', margin: '12px 0 32px',
           }}>
-            #Divine'sChoice26
+            #DivineChoice2026
           </div>
 
           <div className="fade-up-delay-3" style={{
