@@ -67,7 +67,7 @@ export default function OurStory() {
               <div className="section-label" style={{ marginBottom: '4px' }}>The Groom</div>
               <h3 style={{ fontFamily: "'Great Vibes', cursive", fontSize: '2.2rem', color: 'var(--emerald-dark)', marginBottom: '16px' }}>Ndiana Akpekong</h3>
               <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem', textAlign: 'justify', hyphens: 'auto' }}>
-                Ndiana Akpekong is a Marine Engineer, Digital Marketing Specialist, and Entrepreneur driven by a deep commitment to his faith and a passion for empowering others. As a technology enthusiast, he equips individuals, businesses, and organizations with in-demand digital skills, particularly in digital marketing, AI applications, business automation, and online entrepreneurship. Through physical and virtual training programs, he has helped beginners and professionals develop practical skills that enhance employability, business growth, and career advancement.
+                Ndiana Akpekong is a Marine Engineer, Web Developer, Digital Marketing Specialist, and Entrepreneur driven by a deep commitment to his faith and a passion for empowering others. As a technology enthusiast, he equips individuals, businesses, and organizations with in-demand digital skills, particularly in digital marketing, AI applications, business automation, and online entrepreneurship. Through physical and virtual training programs, he has helped beginners and professionals develop practical skills that enhance employability, business growth, and career advancement.
               </p>
               <p style={{ color: 'var(--text-mid)', lineHeight: 1.8, fontSize: '0.95rem', marginTop: '14px', textAlign: 'justify', hyphens: 'auto' }}>
                 Beyond his professional expertise, Ndiana is defined by his quiet strength, warmth, and dedication to serving others. He is deeply involved in youth development through TAYO (Teens and Youths Outreach), where he mentors the next generation in leadership, entrepreneurship, and core values. 
@@ -102,10 +102,9 @@ export default function OurStory() {
   }}
 >
   {[
-    { src: '/photos/Couple1.jpg', caption: 'NYSC Days, Kogi' },
-    { src: '/photos/Couple2.jpg', caption: 'NCCF Fellowship' },
-    { src: '/photos/Couple3.jpg', caption: 'Youth Convention' },
-    { src: '/photos/Couple4.jpg', caption: 'Courtship' },
+    { src: '/photos/NYSC.jpg', caption: 'NYSC Days, Kogi' },
+    { src: '/photos/YouthConvention.jpg', caption: 'Youth Convention' },
+    { src: '/photos/Courtship.jpg', caption: 'Courtship' },
   ].map((img, i) => (
     <div
       key={i}
