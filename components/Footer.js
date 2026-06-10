@@ -32,7 +32,7 @@ export default function Footer() {
             Lydia & Ndiana
           </div>
           <div style={{
-            fontFamily: "'Cormorant Garamond', serif",
+            fontFamily: "'Jost', sans-serif",
             fontSize: '1rem',
             color: 'rgba(255,255,255,0.6)',
             fontStyle: 'italic',
