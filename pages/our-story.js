@@ -91,28 +91,70 @@ export default function OurStory() {
           </div>
 
           {/* Timeline photos row */}
-          <div style={{ display: 'flex', gap: '16px', overflowX: 'auto', paddingBottom: '24px', marginBottom: '56px', scrollbarWidth: 'thin' }}>
-            {[
-              { seed: 'timeline1', caption: 'NYSC Days, Kogi' },
-              { seed: 'timeline2', caption: 'NCCF Fellowship' },
-              { seed: 'timeline3', caption: 'Youth Convention' },
-              { seed: 'timeline4', caption: 'Courtship' },
-            ].map((img, i) => (
-              <div key={i} style={{ flex: '0 0 220px', borderRadius: '16px', overflow: 'hidden', position: 'relative' }}>
-                <div style={{ height: '280px', position: 'relative' }}>
-                  {/* REPLACE: swap each src with your real story photos */}
-                  <Image src={`https://picsum.photos/seed/${img.seed}/440/560`} alt={img.caption} fill style={{ objectFit: 'cover' }} />
-                  <div style={{
-                    position: 'absolute', bottom: 0, left: 0, right: 0,
-                    background: 'linear-gradient(to top, rgba(18,77,53,0.85), transparent)',
-                    padding: '20px 14px 14px',
-                  }}>
-                    <div style={{ color: 'white', fontSize: '13px', fontFamily: "'Jost', sans-serif", fontWeight: 500 }}>{img.caption}</div>
-                  </div>
-                </div>
-              </div>
-            ))}
+<div
+  style={{
+    display: 'flex',
+    gap: '16px',
+    overflowX: 'auto',
+    paddingBottom: '24px',
+    marginBottom: '56px',
+    scrollbarWidth: 'thin',
+  }}
+>
+  {[
+    { src: '/photos/Couple1.jpg', caption: 'NYSC Days, Kogi' },
+    { src: '/photos/Couple2.jpg', caption: 'NCCF Fellowship' },
+    { src: '/photos/Couple3.jpg', caption: 'Youth Convention' },
+    { src: '/photos/Couple4.jpg', caption: 'Courtship' },
+  ].map((img, i) => (
+    <div
+      key={i}
+      style={{
+        flex: '0 0 220px',
+        borderRadius: '16px',
+        overflow: 'hidden',
+        position: 'relative',
+      }}
+    >
+      <div
+        style={{
+          height: '280px',
+          position: 'relative',
+        }}
+      >
+        <Image
+          src={img.src}
+          alt={img.caption}
+          fill
+          style={{ objectFit: 'cover' }}
+        />
+
+        <div
+          style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            background:
+              'linear-gradient(to top, rgba(18,77,53,0.85), transparent)',
+            padding: '20px 14px 14px',
+          }}
+        >
+          <div
+            style={{
+              color: 'white',
+              fontSize: '13px',
+              fontFamily: "'Jost', sans-serif",
+              fontWeight: 500,
+            }}
+          >
+            {img.caption}
           </div>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
 
           {/* Timeline events */}
           <div style={{ maxWidth: '760px', margin: '0 auto', position: 'relative' }}>
