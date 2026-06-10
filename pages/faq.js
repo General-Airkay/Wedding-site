@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: 'Can I share photos on social media?',
-    a: 'Absolutely! We love it when you share the joy. Please use our wedding hashtag #Divine\'sChoice26 on all your posts so we can find and cherish your photos.',
+    a: 'Absolutely! We love it when you share the joy. Please use our wedding hashtag #DivineChoice2026 on all your posts so we can find and cherish your photos.',
   },
 ];
 
