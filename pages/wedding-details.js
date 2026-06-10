@@ -154,7 +154,7 @@ export default function WeddingDetails() {
               href="https://drive.google.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline"
+              className="btn direction-btn"
               style={{ display: 'inline-flex' }}
             >
               🛣️ Download Direction Guide
