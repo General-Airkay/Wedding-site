@@ -32,7 +32,7 @@ const vendors = [
         name: 'Maetidon Fashion',
         role: 'Featured Fashion Designer',
         icon: '✂️',
-        website: 'https://drive.google.com',
+        website: 'https://drive.google.com/drive/folders/1VvrKOYCP03DQBCewle6W8kxUeulK8OLO',
         phone: '2348064066418',
       },
     ],
