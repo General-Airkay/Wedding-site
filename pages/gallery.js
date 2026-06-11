@@ -8,12 +8,12 @@ const categories = ['All', 'Engagement', 'Pre-Wedding', 'Couple Together'];
 // Seeds are used for consistent dummy images — just change the src to a real path like "/gallery/photo1.jpg"
 const items = [
   { cat: 'Engagement',       src: '/photos/Couple1.jpg',   caption: 'Courtship — 01' },
-  { cat: 'Engagement',       src: '/photos/Couple7.jpg',   caption: 'Courtship — 02' },
+  { cat: 'Engagement',       src: '/photos/Couple3.jpg',   caption: 'Courtship — 02' },
   { cat: 'Pre-Wedding',      src: 'https://picsum.photos/seed/pre2/600/600',   caption: 'Pre-Wedding — 02' },
   { cat: 'Pre-Wedding',      src: 'https://picsum.photos/seed/pre3/600/700',   caption: 'Pre-Wedding — 03' },
   { cat: 'Couple Together', src: '/photos/Couple5.jpg',  caption: 'Together — 02' },
   { cat: 'Couple Together', src: '/photos/Couple6.jpg',  caption: 'Together — 03' },
-  { cat: 'Couple Together', src: '/photos/Couple3.jpg',  caption: 'Together — 04' },
+  { cat: 'Couple Together', src: '/photos/Couple7.jpg',  caption: 'Together — 04' },
 ];
 
 export default function Gallery() {
