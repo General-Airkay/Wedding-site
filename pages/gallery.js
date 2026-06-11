@@ -2,7 +2,7 @@ import Layout from '../components/Layout';
 import { useState } from 'react';
 import Image from 'next/image';
 
-const categories = ['All', 'Engagement', 'Pre-Wedding', 'Couple Portraits', 'Couple Together'];
+const categories = ['All', 'Engagement', 'Pre-Wedding', 'Couple Together'];
 
 // REPLACE: swap each src with your real photos.
 // Seeds are used for consistent dummy images — just change the src to a real path like "/gallery/photo1.jpg"
