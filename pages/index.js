@@ -76,7 +76,7 @@ export default function Home() {
               fontWeight: 500, letterSpacing: '3px', textTransform: 'uppercase',
               color: 'rgba(255,255,255,0.8)',
             }}>
-              15th August 2026 · 10:30 AM
+              15th August 2026 · 11:00 AM
             </span>
             <div style={{ height: '1px', width: '48px', background: 'rgba(201,168,76,0.5)' }} />
           </div>
@@ -117,7 +117,7 @@ export default function Home() {
           <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', justifyContent: 'center', margin: '48px 0' }}>
             {[
               { icon: '🕊️', label: 'Ceremony', value: 'RCCG Canaanland Parish', sub: 'Ado-Ekiti, Ekiti State' },
-              { icon: '📅', label: 'Date', value: '15th August 2026', sub: 'Saturday, 10:30 AM' },
+              { icon: '📅', label: 'Date', value: '15th August 2026', sub: 'Saturday, 11:00 AM' },
               { icon: '👗', label: 'Colour Palette', value: 'Emerald Green, Gold & White', sub: 'Look beautiful with us' },
             ].map(({ icon, label, value, sub }) => (
               <div key={label} className="card" style={{ flex: '1 1 220px', maxWidth: '280px', textAlign: 'center', padding: '32px 24px' }}>
