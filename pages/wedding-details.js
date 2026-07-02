@@ -58,7 +58,7 @@ export default function WeddingDetails() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '24px', marginBottom: '48px' }}>
             {[
               { icon: '📅', title: 'Date', lines: ['Saturday', '15th August 2026'] },
-              { icon: '🕐', title: 'Time', lines: ['Ceremony begins at', '10:30 AM'] },
+              { icon: '🕐', title: 'Time', lines: ['Ceremony begins at', '11:00 AM'] },
               { icon: '📍', title: 'Venue', lines: ['RCCG Canaanland Parish', 'Behind Ajaleye Event Centre', 'Ado-Ekiti, Ekiti State, Nigeria'] },
               { icon: '🥂', title: 'Reception', lines: ['Details will be provided', 'upon confirmation of your attendance.'] },
             ].map(({ icon, title, lines }) => (
