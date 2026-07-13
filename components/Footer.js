@@ -80,7 +80,7 @@ export default function Footer() {
             Website designed with ❤️ by
           </span>
           <a
-            href="https://htsdigital.com"
+            href="https://myweddingwebsite.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
