@@ -8,7 +8,7 @@ const vendors = [
         name: 'Hi-Tech Surge',
         role: 'Website Developer',
         icon: '💻',
-        website: 'https://htsdigital.com',
+        website: 'https://myweddingwebsite.vercel.app/',
         phone: '2348106743894',
       },
     ],
