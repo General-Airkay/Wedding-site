@@ -23,7 +23,7 @@ const vendors = [
         phone: '2347062305780',
       },
       {
-        name: 'Phalade's Couture',
+        name: 'Phalade\'s Couture',
         role: "Groom's Fashion Designer",
         icon: '🤵',
         phone: '2349068594998',
