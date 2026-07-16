@@ -23,10 +23,10 @@ const vendors = [
         phone: '2347062305780',
       },
       {
-        name: 'HTS Fashion',
+        name: 'Phalade's Couture',
         role: "Groom's Fashion Designer",
         icon: '🤵',
-        phone: '2348106743894',
+        phone: '2349068594998',
       },
       {
         name: 'Maetidon Fashion',
