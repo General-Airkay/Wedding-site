@@ -10,7 +10,7 @@ const items = [
   { cat: 'Engagement',       src: '/photos/Couple1.jpg',   caption: 'Courtship — 01' },
   { cat: 'Engagement',       src: '/photos/Couple3.jpg',   caption: 'Courtship — 02' },
   { cat: 'Pre-Wedding',      src: '/photos/PHOTOGRAPHER PRE-WED 3.jpg',   caption: 'Pre-Wedding — 01' },
-  { cat: 'Pre-Wedding',      src: '/photos/EDITED PRE-WED 1.jpg',   caption: 'Pre-Wedding — 02' },
+  { cat: 'Pre-Wedding',      src: '/photos/EDITED PRE-WED 1.png',   caption: 'Pre-Wedding — 02' },
   { cat: 'Couple Together', src: '/photos/Couple5.jpg',  caption: 'Together — 02' },
   { cat: 'Couple Together', src: '/photos/Couple6.jpg',  caption: 'Together — 03' },
   { cat: 'Couple Together', src: '/photos/Couple7.jpg',  caption: 'Together — 04' },
