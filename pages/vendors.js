@@ -121,7 +121,7 @@ const vendors = [
     category: 'Décor',
     items: [
       {
-        name: 'Aunty Kemi',
+        name: 'YKF event',
         role: 'Decorator',
         icon: '🌸',
         phone: '2348060508798',
