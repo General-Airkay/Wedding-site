@@ -58,16 +58,16 @@ const vendors = [
     category: 'Events & Entertainment',
     items: [
       {
-        name: 'Priscy_events',
+        name: 'Plan_my_bigday',
         role: 'Event Planner',
         icon: '🎪',
         phone: '2349034824025',
       },
       {
-        name: 'DJ Bammex',
-        role: 'DJ',
+        name: 'Tunrayo Singer',
+        role: 'Live Band',
         icon: '🎧',
-        phone: '2347033976813',
+        phone: '2348024742806',
       },
       {
         name: 'Churchboytunms',
@@ -122,9 +122,9 @@ const vendors = [
     items: [
       {
         name: 'Aunty Kemi',
-        role: 'Décor',
+        role: 'Decorator',
         icon: '🌸',
-        phone: '2348039230298',
+        phone: '2348060508798',
       },
     ],
   },
