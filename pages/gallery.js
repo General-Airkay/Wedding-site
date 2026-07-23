@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 const categories = ['All', 'Engagement', 'Pre-Wedding', 'Couple Together'];
@@ -18,7 +18,24 @@ const items = [
 
 export default function Gallery() {
   const [active, setActive] = useState('All');
+  const [selected, setSelected] = useState(null); // holds the clicked item, or null
   const filtered = active === 'All' ? items : items.filter(i => i.cat === active);
+
+  // Close on Escape key, and lock background scroll while open
+  useEffect(() => {
+    if (!selected) return;
+
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') setSelected(null);
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = '';
+    };
+  }, [selected]);
 
   return (
     <Layout title="Gallery | Lydia & Ndiana">
@@ -64,6 +81,7 @@ export default function Gallery() {
                 transition: 'transform 0.3s, box-shadow 0.3s',
                 cursor: 'pointer',
               }}
+              onClick={() => setSelected(item)}
               onMouseEnter={e => { e.currentTarget.style.transform = 'scale(1.02)'; e.currentTarget.style.boxShadow = '0 12px 40px rgba(0,0,0,0.2)'; }}
               onMouseLeave={e => { e.currentTarget.style.transform = 'scale(1)'; e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.1)'; }}
               >
@@ -105,8 +123,93 @@ export default function Gallery() {
         </div>
       </section>
 
+      {/* Lightbox popup */}
+      {selected && (
+        <div
+          onClick={() => setSelected(null)}
+          style={{
+            position: 'fixed',
+            top: 0, left: 0, right: 0, bottom: 0,
+            background: 'rgba(18, 30, 24, 0.55)',
+            backdropFilter: 'blur(8px)',
+            WebkitBackdropFilter: 'blur(8px)',
+            zIndex: 1000,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '24px',
+            animation: 'fadeIn 0.25s ease',
+          }}
+        >
+          <div
+            onClick={(e) => e.stopPropagation()} // prevents closing when clicking the image/card itself
+            style={{
+              position: 'relative',
+              maxWidth: '900px',
+              width: '100%',
+              maxHeight: '85vh',
+              background: 'var(--cream)',
+              borderRadius: '16px',
+              overflow: 'hidden',
+              boxShadow: '0 20px 60px rgba(0,0,0,0.4)',
+            }}
+          >
+            {/* Close button */}
+            <button
+              onClick={() => setSelected(null)}
+              aria-label="Close"
+              style={{
+                position: 'absolute',
+                top: '12px', right: '12px',
+                width: '38px', height: '38px',
+                borderRadius: '50%',
+                border: 'none',
+                background: 'rgba(0,0,0,0.55)',
+                color: 'white',
+                fontSize: '20px',
+                lineHeight: 1,
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                zIndex: 2,
+                transition: 'background 0.2s',
+              }}
+              onMouseEnter={e => e.currentTarget.style.background = 'rgba(0,0,0,0.8)'}
+              onMouseLeave={e => e.currentTarget.style.background = 'rgba(0,0,0,0.55)'}
+            >
+              ✕
+            </button>
+
+            <div style={{ position: 'relative', width: '100%', height: '75vh' }}>
+              <Image
+                src={selected.src}
+                alt={selected.caption}
+                fill
+                style={{ objectFit: 'contain' }}
+              />
+            </div>
+
+            <div style={{
+              padding: '14px 20px',
+              textAlign: 'center',
+              color: 'var(--emerald-dark)',
+              fontFamily: "'Jost', sans-serif",
+              fontSize: '14px',
+              fontWeight: 500,
+            }}>
+              {selected.caption}
+            </div>
+          </div>
+        </div>
+      )}
+
       <style>{`
         div:hover .gallery-caption { opacity: 1 !important; }
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
       `}</style>
     </Layout>
   );
