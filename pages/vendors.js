@@ -98,6 +98,12 @@ const vendors = [
         icon: '🍽️',
         phone: '2349023769861',
       },
+      {
+        name: 'Fresh Sip Zobo',
+        role: 'Drinks',
+        icon: '🍷',
+        phone: '2349066517519',
+      },
     ],
   },
   {
